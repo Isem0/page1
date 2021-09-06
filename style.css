@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+
+.heading{
+    font-family: 'Merienda', cursive;
+}
+.btn button {
+    background-color: transparent;
+    padding: 5px 20px;
+    border-color: orange;
+}
+.icons i {
+    margin-right: 10px;
+}
+.box {
+    background: url("https://img.freepik.com/free-photo/big-hamburger-with-double-beef-french-fries_252907-8.jpg?size=626&ext=jpg&ga=GA1.2.2140585734.1629504000") center / cover;
+    height: 90vh;
+}
+.box_small1 {
+    background: url("https://envato-shoebox-0.imgix.net/3be5/b0d2-86ad-4b81-b4ff-63ad4997d0d1/IMG_8351-45.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=1600&s=03871d4dda27b9b94c604cc678eaf53b")center / cover;
+    height: 44.5vh;
+}
+.box_small2 {
+    background: url("https://i.pinimg.com/originals/ae/c0/c8/aec0c83cba61f940553b0658dd87e73a.jpg")center / cover;
+    height: 44.5vh;
+}
+.box3 {
+        background: url("https://images.unsplash.com/photo-1532980400857-e8d9d275d858?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80")center / cover;
+        height: 90vh;
+    }
+
+
+
+
+    /* Adaptation */
+    @media (max-width: 760px){
+        .btn  , .icons {
+            display: none;
+        }
+    }
